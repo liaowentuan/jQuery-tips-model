@@ -8,10 +8,10 @@ jQuery提示框插件和模态框插件，然而没有样式，支持模态框�
 $.LstTips('你刷新了页面')
 模态框调用方法：
 html：
-<button class="dialog_btn">click me</button>
-<div class="Dialog" dialog="false"><!--需写明dialog="false"-->
-	<div>
-		<div class="dialogTitle"><!--header 需要有class='dialogTitle'-->
+##<button class="dialog_btn">click me</button>
+##<div class="Dialog" dialog="false"><!--需写明dialog="false"-->
+##	<div>
+##		<div class="dialogTitle"><!--header 需要有class='dialogTitle'-->
 			标题
 		</div>
 		<div class="dialogBody yourStyle"><!--body 需要有class='dialogBody'-->
