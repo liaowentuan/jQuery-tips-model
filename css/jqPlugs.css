@@ -1,0 +1,34 @@
+.LstModal{
+	position:fixed;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	z-index:-1;
+}
+.LstModal > #tipsBox {
+	margin: 15px auto;
+	z-index: 900;
+	text-align: center;
+	width: 200px;
+	padding:5px 15px;
+	background: palegreen;
+	border-radius: 3px;
+	border:1px solid green;
+	word-wrap: break-word;
+}
+[dialog='false']{
+	display: none;
+}
+[dialog='true']{
+	display: block;
+}
+[dialog-toggle~='false']{
+	display: none;
+}
+[dialog-toggle~='true']{
+	display: block;
+}
+.dialogBody{
+	padding:15px;
+}
